@@ -1,0 +1,56 @@
+{
+  "expo": {
+    "name": "1QR",
+    "slug": "app_oneqr",
+    "scheme": "oneqrscan",
+    "version": "19",
+    "orientation": "portrait",
+    "icon": "./assets/1qrlogo.png",
+    "splash": {
+      "image": "./assets/1qrlogosplash.png",
+      "resizeMode": "contain",
+      "margin": 25,
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "Allow 1QR to access your photos.",
+        "NSCameraUsageDescription": "Allow 1QR to access your camera",
+        "NSMicrophoneUsageDescription": "Allow 1QR to access your microphone",
+        "NSPhotoLibraryAddUsageDescription": "Allow 1QR to save photo of your 1QR Code",
+        "NSLocationWhenInUseUsageDescription": "Allow 1QR Code to access your location."
+      },
+      "bundleIdentifier": "com.oneqr.apponeqr"
+    },
+    "android": {
+      "versionCode": 19,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/1qrlogo.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "permissions": [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.true"
+      ],
+      "package": "com.oneqr.app_oneqr"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b38ef794-4ba9-4951-9631-ee8971ac5103"
+      }
+    },
+    "owner": "shubh997",
+    "runtimeVersion": "19.0.0",
+    "updates": {
+      "url": "https://u.expo.dev/b38ef794-4ba9-4951-9631-ee8971ac5103"
+    }
+  }
+}
